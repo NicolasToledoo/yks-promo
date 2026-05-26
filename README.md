@@ -6,7 +6,7 @@
 
 Extensão para cálculo rápido de promoções e descontos.
 
-## ✨ Funcionalidades
+## Funcionalidades
 - **Modo %:** Preço original + % de desconto → Preço final.
 - **Modo Preço:** Preço original + preço desejado → % de desconto.
 
