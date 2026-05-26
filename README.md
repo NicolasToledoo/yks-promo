@@ -1,5 +1,6 @@
 # YKS Promo
 ![YKS Promo](icon.png)
+
 Extensão para cálculo rápido de promoções e descontos.
 
 ## ✨ Funcionalidades
