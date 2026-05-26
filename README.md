@@ -1,5 +1,8 @@
 # YKS Promo
-![YKS Promo](icon.png)
+
+<p align="center">
+  <img src="icon.png" width="120" alt="YKS Promo">
+</p>
 
 Extensão para cálculo rápido de promoções e descontos.
 
