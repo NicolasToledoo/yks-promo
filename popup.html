@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <style>
+    body {
+      width: 280px; padding: 16px; margin: 0;
+      font-family: system-ui, -apple-system, sans-serif;
+      background: #0a0a0a; color: #e0e0e0;
+    }
+    h3 { margin: 0 0 12px; text-align: center; color: #b388ff; font-weight: 500; }
+    label { display: block; margin-top: 8px; font-size: 12px; color: #888; }
+    input, select {
+      width: 100%; padding: 10px; margin: 4px 0 8px; box-sizing: border-box;
+      background: #151515; border: 1px solid #2a2a2a; border-radius: 8px;
+      color: #fff; font-size: 14px;
+    }
+    input:focus, select:focus { outline: none; border-color: #7c4dff; }
+    button {
+      width: 100%; padding: 10px; margin-top: 8px;
+      background: #7c4dff; color: #fff; border: none; border-radius: 8px;
+      font-weight: 600; cursor: pointer; transition: 0.2s;
+    }
+    button:hover { background: #651fff; }
+    #res { margin-top: 12px; text-align: center; color: #b388ff; font-weight: 500; min-height: 20px; }
+    .hidden { display: none; }
+  </style>
+</head>
+<body>
+  <h3>Calculadora de Promo</h3>
+  <label>Preço Original:</label>
+  <input type="text" id="orig" placeholder="199.90 ou 199,90">
+
+  <label>Modo:</label>
+  <select id="modo">
+    <option value="porc">Quero definir a % de desconto</option>
+    <option value="final">Quero definir o preço final</option>
+  </select>
+
+  <div id="boxPorc"><label>Desconto (%):</label><input type="text" id="porc" placeholder="89"></div>
+  <div id="boxFinal" class="hidden"><label>Preço Final Desejado:</label><input type="text" id="final" placeholder="150"></div>
+
+  <button id="calc">Calcular</button>
+  <div id="res"></div>
+  <script src="popup.js"></script>
+</body>
+</html>
